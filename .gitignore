@@ -1,0 +1,36 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.bit
+
+# Logs
+*.log
+
+# Sensitive configs (user-specific)
+my-setup.cfg
+custom.cfg
+local.cfg
