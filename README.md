@@ -5,7 +5,7 @@
 ### Hardware-Level Anti-Cheat Research & Firmware Resources
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/JJgc2cDEK5)
-[![GitHub Stars](https://img.shields.io/github/stars/chinaLFS/dma-toolkit?style=for-the-badge&logo=github)](https://github.com/chinaLFS/dma-toolkit)
+[![GitHub Stars](https://img.shields.io/github/stars/VimRev/dma-toolkit?style=for-the-badge&logo=github)](https://github.com/VimRev/dma-toolkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 ---
@@ -40,7 +40,7 @@
 ### Basic Setup
 ```bash
 # Clone the repo
-git clone https://github.com/chinaLFS/dma-toolkit.git
+git clone https://github.com/VimRev/dma-toolkit.git
 cd dma-toolkit
 
 # Copy a config template
