@@ -1,11 +1,11 @@
 <div align="center">
 
-# ⚡ DMA Toolkit
+# ⚡ DMA Lab
 
 ### Hardware-Level Anti-Cheat Research & Firmware Resources
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/JJgc2cDEK5)
-[![GitHub Stars](https://img.shields.io/github/stars/VimRev/dma-toolkit?style=for-the-badge&logo=github)](https://github.com/VimRev/dma-toolkit)
+[![GitHub Stars](https://img.shields.io/github/stars/VimRev/dma-lab?style=for-the-badge&logo=github)](https://github.com/VimRev/dma-lab)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 ---
@@ -40,8 +40,8 @@
 ### Basic Setup
 ```bash
 # Clone the repo
-git clone https://github.com/VimRev/dma-toolkit.git
-cd dma-toolkit
+git clone https://github.com/VimRev/dma-lab.git
+cd dma-lab
 
 # Copy a config template
 cp configs/pcileech/example.cfg my-setup.cfg
@@ -80,11 +80,6 @@ We actively research and document how modern anti-cheat systems work at the kern
 
 > Full comparison and buying guides in [`guides/hardware-guide.md`](guides/hardware-guide.md)
 
-### Recommended FPGA Dev Boards (DIY)
-- **Xilinx Artix-7** — Best price/performance for DMA
-- **Xilinx Spartan-6** — Budget, still functional
-- **Intel Cyclone V** — Alternative, less community support
-
 ## PCILeech Config Templates
 
 Pre-made configs for common setups are in [`configs/`](configs/):
@@ -108,11 +103,6 @@ configs/
 - [LeechCore](https://github.com/ufrisk/leechcore) — LeechCore Memory Acquisition Library
 - [MemProcFS](https://github.com/ufrisk/memprocfs) — Memory Process File System
 - [Screamer PCIe Squirrel](https://github.com/ufrisk/pcileech-fpga) — FPGA firmware source
-
-### Learning Resources
-- [PCILeech Wiki](https://github.com/ufrisk/pcileech/wiki) — Official documentation
-- [LeechCore API Docs](https://github.com/ufrisk/leechcore/wiki) — Library documentation
-- Our Discord has dedicated channels for learning and troubleshooting
 
 ## Contributing
 
