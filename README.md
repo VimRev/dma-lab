@@ -29,6 +29,24 @@
 | [`guides/`](guides/) | Hardware selection, setup tutorials, and anti-cheat analysis |
 | [`tools/`](tools/) | Utility scripts for DMA development and testing |
 
+## Tools
+
+| Tool | Description | Platform |
+|------|-------------|----------|
+| [`check_device.py`](tools/check_device.py) | Verify DMA board connection | Linux/Windows |
+| [`pcie_scan.py`](tools/pcie_scan.py) | Scan PCIe bus for DMA/FPGA devices | Linux/Windows |
+| [`dma_info.py`](tools/dma_info.py) | Read DMA hardware info (PCIe config space) | Linux/Windows |
+| [`firmware_verify.py`](tools/firmware_verify.py) | Validate FPGA bitstream integrity | Linux/Windows |
+| [`bar_dump.py`](tools/bar_dump.py) | Dump PCIe BAR memory regions | Linux |
+
+## Guides
+
+| Guide | Description |
+|-------|-------------|
+| [`hardware-guide.md`](guides/hardware-guide.md) | DMA board comparison and buying guide |
+| [`dma-detection-vectors.md`](guides/dma-detection-vectors.md) | How anti-cheats detect DMA hardware |
+| [`eac-battleye-behavior.md`](guides/eac-battleye-behavior.md) | EAC & BattlEye kernel-level behavior analysis |
+
 ## Quick Start
 
 ### Prerequisites
